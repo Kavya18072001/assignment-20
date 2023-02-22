@@ -1,11 +1,11 @@
-import React from 'react';
+
 import './App.css';
-import  Add from './Addtask'
+import Parent from './data-table'
 
 function App() {
   return (
     <div className="App">
-     <Add /> 
+      <Parent/>
     </div>
   );
 }
